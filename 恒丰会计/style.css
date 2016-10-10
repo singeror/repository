@@ -1,0 +1,256 @@
+body {
+	font-size: 12px;
+	font-family:宋体,Arial, Helvetica, sans-serif;
+	line-height:19px;
+	color:#696969;
+	background:#666666;
+	margin:0 auto;
+}
+a:link, a:visited, a:active { text-decoration:none; color:#696969; font-size:12px; }
+a:hover{ text-decoration:none; color:#4b9631; font-size:12px; }
+
+.hui{ color:#A19E9E;}
+a.hui:link, a.hui:visited, a.hui:active { text-decoration:none; color:#A19E9E; font-size:12px; }
+a.hui:hover{ text-decoration:none; color:#4b9631; font-size:12px; }
+
+a.lan13:link, a.lan13:visited, a.lan13:active { text-decoration:none; color:#1d83a9; font-size:13px;}
+a.lan13:hover{  text-decoration:none; color:#4b9631; font-size:13px; }
+
+a.hongse:link, a.hongse:visited, a.hongse:active { text-decoration:none; color:#ef0101; font-size:13px;}
+a.hongse:hover{  text-decoration:none; color:#4b9631; font-size:13px; }
+/*select{
+	width:200px; 
+	height:22px; 
+	border: 0px;
+	font-size:12px;
+}*/
+.input{ font-size:12px; border:1px #cbcbcb solid; color:#8f8f8f; width:118px;}
+.xuxian { border-bottom:1px #dfdfdf dotted;}
+.lanxian{ border-bottom:1px #b5e8f2 solid;}
+.baixian{ border-bottom:1px #fff solid;}
+
+
+.lan13{ text-decoration:none; color:#1d83a9; font-size:13px; }
+
+a.lv:link, a.lv:visited, a.lv:active { text-decoration:none; color:#93a600; font-size:12px; }
+a.lv:hover{ text-decoration:none; color:#4b9631; font-size:12px; }
+
+.baise{ color:#FFF;}
+.biaoti{ color:#000; font-size:13px; font-family:"Microsoft YaHei"; font-weight:bold;}
+.meixian{ border-bottom:none;} 
+.zilan{ background-color:#F1F1F1; border-bottom:1px #FFF solid;}
+.huibian{ border:1px #CCC solid; padding:2px;}
+.article_tdbgall{background:#f5f5f5;}
+.newscontent{padding-top:10px; line-height:18px;font-size:14px}
+.pic3
+{
+border: 3px double #cccccc;
+}
+.info2{ background-color:#EDEEEE;}
+#index-18{
+	padding-top: 25px;
+	padding-left: 140px;
+	border-sizing:border-box;
+	background: url("index--182.jpg");
+	width: 100%;
+	height: 90px;
+}
+#index-18 .node{
+	margin: 0 auto;
+	font-size: 50px;
+}
+/*导航设置Css*/
+.homes a
+{
+	background: url(back.jpg);
+	border:3px solid grey;
+	border-sizing: border-box;
+	width: 33%;
+	height: 34px;
+	float:left;
+	font-size: 20px;
+	line-height: 34px;
+	color: #FFF500;
+}
+.homes a:hover
+{
+	background: url(back.jpg);
+	border:3px solid grey;
+	border-sizing: border-box;
+	width: 33%;
+	height: 34px;
+	float:left;
+	font-size: 20px;
+	line-height: 34px;
+	color: limegreen;
+}
+.pinpai a
+{
+	background: url(back.jpg);
+	border:3px solid grey;
+	border-sizing: border-box;
+	width: 32%;
+	height: 34px;
+	float:left;
+	font-size: 20px;
+	line-height: 34px;
+	color: #FFF500;
+}
+.pinpai a:hover
+{
+	background: url(back.jpg);
+	border:3px solid grey;
+	border-sizing: border-box;
+	width: 32%;
+	height: 34px;
+	float:left;
+	font-size: 20px;
+	line-height: 34px;
+	color: limegreen;
+}
+.yijian a
+{
+	background: url(back.jpg);
+	border:3px solid grey;
+	border-sizing: border-box;
+	width: 33%;
+	height: 34px;
+	float:left;
+	font-size: 20px;
+	line-height: 34px;
+	color: #FFF500;
+}
+.yijian a:hover
+{
+	background: url(back.jpg);
+	border:3px solid grey;
+	border-sizing: border-box;
+	width: 33%;
+	height: 34px;
+	float:left;
+	font-size: 20px;
+	line-height: 34px;
+	color: limegreen;
+}
+
+
+/*头部CSS样式*/
+.container {
+	width: 950px;
+	height: 169px
+}
+.container a img {
+	width: 950px;
+	height: 338px
+}
+.container IMG {
+	border-bottom-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	border-left-style: none
+}
+.td_f a img {
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px
+}
+.num {
+	position: absolute;
+	width: 90px;
+	float: right;
+	top: 305px;
+	left: 820px
+}
+.num li {
+	text-align: center;
+	line-height: 15px;
+	list-style-type: none;
+	margin: 1px;
+	width: 15px;
+	font-family: Arial;
+	float: left;
+	height: 15px;
+	color: #86a2b8;
+	font-size: 12px;
+	cursor: pointer
+}
+
+.youshi{
+	display: none;
+	position: absolute;
+	top: 358px;
+	left: 449px;
+	width: 701px;
+	height: 338px;
+	margin: 0 auto;
+	background: #DEDEDE;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0; font-weight:normal; font-size:12px;}
+ul,ol,li{list-style:none;}
+img{border:none;}
+.clear{clear:both; line-height:0; height:0; font-size:0;}
+select,input{vertical-align:middle;}
+em{font-style:normal;}
+
+#content{width:950px; height:370px; margin:0 auto; background:url(bg_01.jpg)/*tpa=http://www.certifiaudit.com/images/bg_01.jpg*/ repeat-x;}
+#content_left{width:250px; height:370px; float:left; background:url(bg_02.jpg)/*tpa=http://www.certifiaudit.com/images/bg_02.jpg*/ no-repeat right bottom; text-align:left;}
+#content_center{width:475px; float:left; height:370px; float:left; background:url(bg_02.jpg)/*tpa=http://www.certifiaudit.com/images/bg_02.jpg*/ no-repeat right bottom;}
+#content_right{width:225px; float:left;}
+
+.fwfw{width:225px; float:left; margin:10px 0px 0px 10px; _margin:10px 0px 0px 5px;}
+.fwfw_bt{width:225px; float:left; height:21px; border-bottom:1px solid #dddddd; font-size:14px; font-weight:bold; color:#111;}
+#fwfw_bt span{width:35px; float:right; height:13px; padding-top:8px;}
+#fwfw_nr{width:225px; float:left; margin-top:7px;}
+#fwfw_nr ul li{width:92px; height:29px; float:left; padding-left:20px;}
+#hzdw_nr{width:225px; float:left; margin-top:7px;}
+#hzdw_nr ul li{width:225px; height:42px; float:left; margin-top:8px; text-align:center;}
+
+#about{width:448px; float:left; margin:10px 0px 0px 10px; _margin:10px 0px 0px 5px;}
+.about_bt{width:448px; float:left; height:21px; border-bottom:1px solid #dddddd; font-size:14px; font-weight:bold; color:#111;}
+#about_nr{width:448px; float:left; margin-top:7px; line-height:22px;}
+
+#hydt{width:448px; float:left; margin:25px 0px 0px 10px; _margin:25px 0px 0px 5px;}
+
+#news_nr{width:448px; float:left; margin-top:7px; line-height:22px;}
+#news_nr dl dt{width:125px; float:left;}
+#news_nr dl dd{width:323px; float:left;}
+#news_nr dl dd ul li{width:323px; height:22px; border-bottom:1px dashed #9c9c9c; padding-top:8px;}
+
+#search{width:206px; height:101px; background:url(index_18.jpg)/*tpa=http://www.certifiaudit.com/images/index_18.jpg*/ no-repeat; margin:19px 0px 0px 10px;}
+#search ul{margin-top:10px; margin-left:15px; _margin-left:7px; float:left;}
+#search ul li{width:175px; height:28px;}
+
+#banner{width:205px; margin:19px 0px 0px 10px;}
+#banner1{width:205px; margin:15px 0px 0px 20px; float:left;}
+
+#banquan{width:950px; height:52px; margin:0 auto; background:url(bg_03.jpg)/*tpa=http://www.certifiaudit.com/images/bg_03.jpg*/ repeat-x; text-align:center; padding-top:20px; float:left;}
+
+
+#content1{width:950px; float:left; background:url(index_12.jpg)/*tpa=http://www.certifiaudit.com/images/index_12.jpg*/ bottom repeat-x; background-color:#FFF;}
+#sub_left{width:250px; float:left; background:url(bg_04.jpg)/*tpa=http://www.certifiaudit.com/images/bg_04.jpg*/ no-repeat right top; text-align:left;}
+#sub_right{width:680px; float:right;}
+#sub_right_bt{width:680px; float:left; height:21px; border-bottom:1px solid #dddddd; font-size:14px; font-weight:bold; color:#111;margin:10px 0px 0px 0px;}
+#sub_right_nr{width:680px; float:left; margin-top:7px; line-height:22px;}
+#sub_right_nr1{width:680px; float:left; margin-top:7px;}
+#sub_right_nr1 ul li{width:680px; float:left; height:65px;}
+#sub_right_nr1 ul li dl dt{width:70px; float:left; height:65px;}
+#sub_right_nr1 ul li dl dd{width:610px; float:left; font-weight:bold; height:45px; padding-top:20px;}
+#sub_right_nr2{width:680px; float:left; margin-top:7px;}
+#sub_right_nr2 ul li{width:680px; height:22px; border-bottom:1px dashed #9c9c9c; padding-top:8px;}
+
+#fuwus_nr{width:680px; float:left; margin-top:7px; line-height:22px;}
+#fuwus_nr dl dt{width:65px; float:left;}
+#fuwus_nr dl dd{width:600px; float:left;}
+#fwshow_bt{width:680px; height:25px; text-align:center; color:#696969; float:left; padding-top:35px;}
+#fwshow_sj{width:670px; height:24px; background-color:#f5f5f5; float:left; text-align:center; color:#696969; padding-top:6px;}
+#fwshow_sj span{ float:right;}
+#fwshow_nr{width:670px; float:left; margin-top:10px; line-height:20px; color:#294766;}
+#fwshow_fy{width:680px; float:left; height:35px; color:#696969;}
+
+#xiazaishow_nr{width:670px; float:left; color:#294766; font-size:24px; font-weight:bold; line-height:50px;}
+#xiazainn{width:670px; float:right; margin-top:200px; text-align:right;}
+
+#more{width:670px; text-align:right;}
